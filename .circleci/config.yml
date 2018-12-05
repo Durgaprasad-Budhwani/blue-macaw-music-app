@@ -30,7 +30,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
 
       - run: yarn install
-      - run: npm install envsub -g
+      - run: yarn global add envsub
       - run: envsub .env.default .env
 
       - save_cache:
