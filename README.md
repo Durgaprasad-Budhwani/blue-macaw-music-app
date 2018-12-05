@@ -10,6 +10,11 @@ Right now, this app only contains backend code.
 
 - Clone the repo
 
+```
+git clone https://github.com/Durgaprasad-Budhwani/blue-macaw-music-app.git
+```
+
+
 - Install dependencies:
 
 ``yarn``
