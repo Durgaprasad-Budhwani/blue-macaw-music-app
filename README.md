@@ -17,18 +17,24 @@ git clone https://github.com/Durgaprasad-Budhwani/blue-macaw-music-app.git
 
 - Install dependencies:
 
-``yarn``
+```
+yarn
+```
 
 - Rename `.env.default` file to `.env` and change environment variables
 
 
 ## Running locally
 
-```yarn dev```
+```
+yarn dev
+```
 
 ## Running in Production
 
-```yarn start```
+```
+yarn start
+```
 
 ## Creating and running docker
 
@@ -59,16 +65,22 @@ yarn lint:watch
 
 - To run integration test cases run below command:
 
-    ```yarn test:integration```
+    ```
+    yarn test:integration
+    ```
 
  
 - To monitor test case during development, use command:
 
-    ```yarn test:watch```
+    ```
+    yarn test:watch
+    ```
 
 - To view coverage
 
-    ```yarn coverage```
+    ```
+    yarn coverage
+    ```
 
 ## Logs
 
@@ -86,7 +98,9 @@ For more details refer `music.routes.js` file.
 
 To generate document use below command:
 
-```yarn docs```
+```
+yarn docs
+```
 
 # Architecture/Design Concepts
 
@@ -100,7 +114,7 @@ Url based routing is taken places in `routes` folder. `Routes` decides which con
 `Controller` is responsible to call specific `Service` for data information.
 
 `Socket` event handling mechanism is handled in `socket/index.js` file. 
-
+k
 For storage, this app uses `MongoDB`.
 
 
