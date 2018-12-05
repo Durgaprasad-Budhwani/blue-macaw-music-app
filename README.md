@@ -2,7 +2,7 @@
 
 Parrots have musical tastes, with some preferring classical works and others pop tunes.
 Blue macaw parrot that inspired "Rio" is now officially extinct in the wild. 
-This simple Express and React Application is for them.
+This simple Express and React Application is dedicated to them.
 
 Right now, this app only contains backend code.
 
