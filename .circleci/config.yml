@@ -27,11 +27,6 @@ jobs:
       - run: yarn global add envsub
       - run: envsub .env.default .env
 
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
       # run tests!
       - run: yarn test
 
