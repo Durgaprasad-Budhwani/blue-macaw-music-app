@@ -1,4 +1,4 @@
-# Blue Macaw Music App [![](https://images.microbadger.com/badges/version/durgaprasadbudhwani/blue-macaw-music-app.svg)](https://microbadger.com/images/durgaprasadbudhwani/blue-macaw-music-app "Get your own version badge on microbadger.com")
+# Blue Macaw Music App [![](https://images.microbadger.com/badges/version/durgaprasadbudhwani/blue-macaw-music-app.svg)](https://microbadger.com/images/durgaprasadbudhwani/blue-macaw-music-app "Get your own version badge on microbadger.com") [![CircleCI](https://circleci.com/gh/Durgaprasad-Budhwani/blue-macaw-music-app.svg?style=svg)](https://circleci.com/gh/Durgaprasad-Budhwani/blue-macaw-music-app) [![codecov](https://codecov.io/gh/Durgaprasad-Budhwani/blue-macaw-music-app/branch/master/graph/badge.svg)](https://codecov.io/gh/Durgaprasad-Budhwani/blue-macaw-music-app)
 
 Parrots have musical tastes, with some preferring classical works and others pop tunes.
 Blue macaw parrot that inspired "Rio" is now officially extinct in the wild. 
