@@ -1,4 +1,4 @@
-# Blue Macaw Music App
+# Blue Macaw Music App [![](https://images.microbadger.com/badges/version/durgaprasadbudhwani/blue-macaw-music-app.svg)](https://microbadger.com/images/durgaprasadbudhwani/blue-macaw-music-app "Get your own version badge on microbadger.com")
 
 Parrots have musical tastes, with some preferring classical works and others pop tunes.
 Blue macaw parrot that inspired "Rio" is now officially extinct in the wild. 
@@ -95,6 +95,8 @@ Url based routing is taken places in `routes` folder. `Routes` decides which con
 `Controller` is responsible to call specific `Service` for data information.
 
 `Socket` event handling mechanism is handled in `socket/index.js` file. 
+
+For storage, this app uses `MongoDB`.
 
 
 # Important Notes:- 
