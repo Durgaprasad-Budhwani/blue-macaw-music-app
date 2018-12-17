@@ -5,7 +5,7 @@ const controller = require('../../api/controllers/music.controller');
 
 const listMusic = {
   query: {
-    page: Joi.number().min(1),
+    page: Joi.number().min(0),
     perPage: Joi.number().min(1).max(100),
   },
 };
@@ -27,7 +27,7 @@ router
    * @apiName ListMusic
    * @apiGroup Music
    *
-   * @apiParam  {Number{1-}}         [page=1]     List page
+   * @apiParam  {Number{0-}}         [page=1]     List page
    * @apiParam  {Number{1-100}}      [perPage=1]  Music per page
    *
    * @apiSuccess {Object[]} Music List of music.

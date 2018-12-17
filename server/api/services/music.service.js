@@ -10,7 +10,7 @@ exports.list = (query = {}) => {
   return db.Music
     .find({})
     .select({
-      composer: true, tags: true, name: true, description: true, category: true,
+      composer: true, tags: true, name: true, description: true, category: true, image: true,
     })
     .limit(perPage)
     .skip(perPage * page);

@@ -6,8 +6,8 @@ const { SONG_RECOMMENDED, NEW_SONGS_PLAYED } = require('../helpers/constants');
 // noinspection JSUnusedLocalSymbols
 const socketRoutes = (io, socket) => ({
   [NEW_SONGS_PLAYED]: async (payload) => {
-    const music = await db.Music.findById(payload.id);
-    socket.broadcast.emit(SONG_RECOMMENDED, music);
+    const music = await db.Music.findById(payload._id);
+    socket.broadcast.emit('action', { type: SONG_RECOMMENDED, song: music });
   },
 });
 
